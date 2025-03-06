@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OfficeConvert - Local Office to PDF Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <span>OfficeConvert</span>
+      </div>
+      <div class="theme-toggle">
+        <label class="switch">
+          <input type="checkbox" id="theme-switch">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="conversion-section">
+        <div class="upload-area">
+          <h3>Upload Your File</h3>
+          <p>Drag & drop your document here, or click to select a file.</p>
+          <input type="file" class="file-input">
+          <button class="browse-btn">Browse</button>
+        </div>
+        <button class="convert-btn" disabled>Convert to PDF</button>
+      </section>
+    </main>
+  </div>
+</body>
+<script src="script.js"></script>
+<script src="office-converter.js"></script>
+<script src="conversion.js"></script>
+</html>
